@@ -1,0 +1,95 @@
+h1 {    
+    text-align: center;
+    font-size: 175%;
+}
+
+body, h {
+    padding: 0px;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/***** desktop ≥ 992px *****/
+@media (min-width:992px){
+    .col-lg-4 {
+        float: left;
+        width: 33%;
+        height: auto;
+    }
+}
+
+
+/***** tablet [768px, 991px] *****/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;   
+        height: auto;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+
+/***** mobile ≤ 767px *****/
+@media(max-width:767px){
+    .col-sm-12 {
+        float: left; 
+        width: 100%;
+        height: auto;
+    }
+}
+
+.dish {
+    margin: 8px 5px 8px 5px;
+    height: auto;
+    border: 1px solid black;
+    bottom: 0px;
+    background-color: rgba(128, 128, 128, 0.5);
+    
+}
+
+.dish-desc {
+    margin: 2%;
+    font-size: 125%;
+}
+
+.dish-name-1, .dish-name-2, .dish-name-3 {
+    font-size: 175%;  
+    position: absolute;
+    right: 0px;
+    /* right: -5px; */
+    width: 3em;
+    margin: 2px;
+    padding: 5px;
+}
+
+.dish-name-1 {
+    width: 4em;
+    background-color:rgb(187, 128, 128);
+}
+
+.dish-name-2 {
+    color:ivory;
+    background-color:rgb(206, 71, 71);
+}
+
+.dish-name-3 {
+    background-color:rgb(228, 195, 103);
+}
+
+.dish-name-container {
+    position: relative;
+    height: 50px;
+}
